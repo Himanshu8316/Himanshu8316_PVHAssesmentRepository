@@ -1,0 +1,296 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "User could see specific errors during registration process",
+        "description": "",
+        "id": "create-new-account;user-could-see-specific-errors-during-registration-process;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19707755000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to home page",
+            "match": {
+              "location": "stepDefinitions.user_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1148277300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Create an Account link",
+            "match": {
+              "location": "stepDefinitions.user_clicks_on_create_an_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147728700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User registers without enough information",
+            "match": {
+              "location": "stepDefinitions.user_registers_without_enough_information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 805426500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the errors Vul het veld in and Vul het veld in and Bevestig dat je akkoord gaat met de algemene voorwaarden",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vul het veld in",
+                  "offset": 18
+                },
+                {
+                  "val": "Vul het veld in",
+                  "offset": 38
+                },
+                {
+                  "val": "Bevestig dat je akkoord gaat met de algemene voorwaarden",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.verify_the_errors(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140316300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@CreateNewAccountTest"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User Creates Account with valid data",
+        "description": "",
+        "id": "create-new-account;user-creates-account-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5772808500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Navigate to home page",
+            "match": {
+              "location": "stepDefinitions.user_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 800891800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Create an Account link",
+            "match": {
+              "location": "stepDefinitions.user_clicks_on_create_an_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5141231400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters required data test102@gmail.com and test100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test102@gmail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "test100",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.user_enters_required_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12103124900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify the user account created successfully test102@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test102@gmail.com",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.verify_the_user_account_created_successfully(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 233359700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@CreateNewAccountTest"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Registered user can add a new address",
+        "description": "",
+        "id": "create-new-account;registered-user-can-add-a-new-address;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5154656100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Navigate to home page",
+            "match": {
+              "location": "stepDefinitions.user_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 230560500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Signup",
+            "match": {
+              "location": "stepDefinitions.user_clicks_on_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1052685300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters login data test102@gmail.com and test100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test102@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "test100",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.user_enters_login_data_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20026668200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User adds New Address",
+            "match": {
+              "location": "stepDefinitions.user_adds_new_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193334200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@CreateNewAccountTest"
+          }
+        ]
+      }
+    ],
+    "name": "Create New Account",
+    "description": "",
+    "id": "create-new-account",
+    "keyword": "Feature",
+    "uri": "Create_New_Account.feature"
+  }
+]
