@@ -15,6 +15,7 @@ It covers the below E2E scenarios  :
 * Cucumber BDD framework has been used to implement the test suit.
 * Project contains one feature file(Create_New_Account.feature) which contains the scenarios with test data.
 * Project has step defination file which implements the steps mentioned in the feature file.
+* Page Ojects kept in separate class.
 * Project has a Test Runned file for controlling the run of the test suit.
 * Assertions have been used for validations.
 * POM.xml contains all the dependencies related to jars and plugins required for implementation.
