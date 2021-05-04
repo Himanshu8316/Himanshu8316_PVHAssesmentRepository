@@ -24,7 +24,7 @@ It covers the below E2E scenarios  :
 * Html reports provides clear and impressive visual of the latest runs report in terms steps and scenarios status.
 
 ## How to run the Test Suit :
- * Step 1 : Clone the repository on the local machine using command on command Prompt: git clone https://github.com/Himanshu8316/Himanshu8316-PVHassesmentRepository.git
+ * Step 1 : Clone the repository on the local machine using command on command Prompt: git clone https://github.com/Himanshu8316/Himanshu8316_PVHAssesmentRepository.git
  * Step 2 : Import the project to the eclipse or the any other editor.
  * Step 3 : Update fresh test data (username and password) in feature file in Examples section.
  * Step 4 : Go to the cloned project location in command prompt and rum Maven command : mvn test verify
