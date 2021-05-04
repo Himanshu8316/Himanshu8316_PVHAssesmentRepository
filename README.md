@@ -22,6 +22,7 @@ It covers the below E2E scenarios  :
 ## Reporting :
 * Cucumber html reports has been implemented available in target/cucumber-html-reports folder.
 * Html reports provides clear and impressive visual of the latest runs report in terms steps and scenarios status.
+* Screenshots have been captured and saved at folder \target\screenshots
 
 ## How to run the Test Suit :
  * Step 1 : Clone the repository on the local machine using command on command Prompt: git clone https://github.com/Himanshu8316/Himanshu8316_PVHAssesmentRepository.git
